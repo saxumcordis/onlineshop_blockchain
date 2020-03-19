@@ -1,5 +1,8 @@
+//Префикс 2 в названии говорит, что данная миграция будет выполнена второй.
 const OnlineShop = artifacts.require("OnlineShop");
-
-module.exports = function(deployer) {
-  deployer.deploy(OnlineShop);
-};
+// Сообщаем truffle с каким контрактом, мы хотим взаимодействовать
+// Все миграции экспортируются через синтаксис module.exports.
+// Этот объект помогает развёртывать смарт-контракты.
+// deployer -- средство развёртывания
+// Ниже происходит развёртывание контракта в сети
+module.exports = deployer => deployer.deploy(OnlineShop);

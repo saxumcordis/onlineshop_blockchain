@@ -1,6 +1,6 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.0; // Выбираем версию Solidity с которой будем работать
 
-contract OnlineShop {
+contract OnlineShop { // Создаём контракт (КЛАСС) OnlineShop
     string public name; //Свойство name
 
     uint public productCount = 0; //Количество текущих продуктов (свойство)
@@ -38,7 +38,7 @@ contract OnlineShop {
         name = "Online Shop";
     }	
 
-    function createProduct(string _name, uint _price) public { //Функция создания продукта. На вход
+    function createProduct(string memory _name, uint _price) public { //Функция создания продукта. На вход получаем имя и цену
     	// Убеждаемся, что введены непустое имя и неотрицательная цена
     	require(bytes(_name).length > 0 && _price > 0);
     	// Увеличиваем счётчик продуктов на 1
