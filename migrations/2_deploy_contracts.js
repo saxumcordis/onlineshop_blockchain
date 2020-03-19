@@ -6,3 +6,4 @@ const OnlineShop = artifacts.require("OnlineShop");
 // deployer -- средство развёртывания
 // Ниже происходит развёртывание контракта в сети
 module.exports = deployer => deployer.deploy(OnlineShop);
+

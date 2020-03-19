@@ -10,4 +10,4 @@ const Migrations = artifacts.require("Migrations");
 // Этот объект помогает развёртывать смарт-контракты.
 // deployer -- средство развёртывания
 // Ниже происходит развёртывание контракта в сети
-module.exports = deployer => deployer.deploy(migrations);
+module.exports = deployer => deployer.deploy(Migrations);
