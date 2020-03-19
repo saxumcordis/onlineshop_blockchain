@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import styles from './table.module.css';
-import Navbar from './Navbar';
+import styles from './table.module.css'; //Загрузка "переменной" стилей из файла table.module.css
+import Navbar from './Navbar'; //Загрузка компонента Navbar из файла Navbar.js
 
-class ForBuyer extends Component {
+class ForBuyer extends Component { 
 
-    date() {
+    date() { //ф-ция, которая возвращает текущие дату и время
         let getCurrentDate = (curr = new Date()) =>
             ([curr.getFullYear(),
                     curr.getMonth(),
@@ -12,7 +12,14 @@ class ForBuyer extends Component {
                 + " " + [curr.getHours(), curr.getMinutes()].join(':'));
         return getCurrentDate();
     };
-
+    /*
+    Вместе с компонентой Navbar отрисовываем на странице следующие объекты:
+    Надпись "AVAILABLE PRODUCTS"
+    Таблицу, содержащую следующие столбцы: ID, Date, Name, Price, Owner, ACTION
+    Заполняем таблицу из переданных props (данные, которые передаются между объектами)
+    В столбец ACTION добавляется кнопка BUY, за именем и значением которой закрепляются ID и PRICE продукта
+    По нажатию на кнопку BUY вызывается функция из переданных props по покупке продуктов (purchaseProduct)
+    */
     render() {
         return (
             <div className={styles.fontBody}>

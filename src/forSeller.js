@@ -4,6 +4,9 @@ import Navbar from './Navbar';
 
 class ForSeller extends Component {
 
+    /*
+        
+    */
     render() {
         return (
             <div className={styles.helloDiv}>
