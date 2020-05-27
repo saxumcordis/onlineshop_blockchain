@@ -1,4 +1,6 @@
-![alt tag](https://sun9-61.userapi.com/c858520/v858520281/12ec62/ruwLjBlGdmM.jpg "Описание будет тут")
+![alt tag](https://sun9-30.userapi.com/p3HM6L0J51At2LPUwaoIfv0kCzdN2m3qHhBcow/UxG5fT0TjIU.jpg "main")
+![alt tag](https://sun9-36.userapi.com/K0RW1IP1Eeysj_r71Wi1w5uE2FTGMhZkJObVag/20hrOQqHZbc.jpg "seller")
+![alt tag](https://sun9-67.userapi.com/KiFM7tsImDAnTjXhrA2vPdZMTPjJ_wTSKgCkUQ/7LP0ps6bWI0.jpg "buyer")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
