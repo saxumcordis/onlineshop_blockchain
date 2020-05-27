@@ -1,3 +1,5 @@
+![alt tag](https://sun9-61.userapi.com/c858520/v858520281/12ec62/ruwLjBlGdmM.jpg "Описание будет тут")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
